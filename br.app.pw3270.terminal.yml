@@ -37,7 +37,7 @@ modules:
     buildsystem: autotools
     sources:
       - type: git
-        tag: "5.4"
+        tag: "5.5"
         url: https://github.com/PerryWerneck/pw3270
 
 
