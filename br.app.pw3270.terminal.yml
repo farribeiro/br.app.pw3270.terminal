@@ -25,13 +25,13 @@ modules:
       - --with-product-id="br.app.pw3270"
     sources:
       - type: git
-        tag: "5.4"
+        tag: "5.5.0"
         url: https://github.com/PerryWerneck/lib3270
   - name: libv3270
     buildsystem: meson
     sources:
       - type: git
-        tag: "5.4"
+        tag: "5.5.0"
         url: https://github.com/PerryWerneck/libv3270
   - name: pw3270
     buildsystem: autotools
