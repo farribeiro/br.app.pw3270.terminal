@@ -20,7 +20,7 @@ cleanup:
   - "*.a"
 modules:
   - name: lib3270
-    buildsystem: autotools
+    buildsystem: meson
     config-opts: 
       - --with-product-id="br.app.pw3270"
     sources:
@@ -28,7 +28,7 @@ modules:
         tag: "5.4"
         url: https://github.com/PerryWerneck/lib3270
   - name: libv3270
-    buildsystem: autotools
+    buildsystem: meson
     sources:
       - type: git
         tag: "5.4"
