@@ -21,8 +21,6 @@ cleanup:
 modules:
   - name: lib3270
     buildsystem: meson
-    config-opts: 
-      - --with-product-id="br.app.pw3270"
     sources:
       - type: git
         tag: "5.5.0"
@@ -51,5 +49,3 @@ modules:
           - type: git
           - tag-pattern: ([\\d.]+)$
           - is-important: true
-
-
