@@ -28,9 +28,9 @@ modules:
         tag: "5.4"
         url: https://github.com/PerryWerneck/lib3270
         x-checker-data:
-          - type: git
-          - tag-pattern: ([\\d.]+)$
-          - is-important: true
+          type: git
+          tag-pattern: ([\\d.]+)$
+          is-important: true
   - name: libv3270
     buildsystem: autotools
     sources:
@@ -38,9 +38,9 @@ modules:
         tag: "5.4"
         url: https://github.com/PerryWerneck/libv3270
         x-checker-data:
-          - type: git
-          - tag-pattern: ([\\d.]+)$
-          - is-important: true
+          type: git
+          tag-pattern: ([\\d.]+)$
+          is-important: true
   - name: pw3270
     buildsystem: autotools
     sources:
@@ -48,7 +48,7 @@ modules:
         tag: "5.5"
         url: https://github.com/PerryWerneck/pw3270
         x-checker-data:
-          - type: git
-          - tag-pattern: ([\\d.]+)$
-          - is-important: true
+          type: git
+          tag-pattern: ([\\d.]+)$
+          is-important: true
           
